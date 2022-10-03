@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E303FB87-FDE8-4C08-A336-334F7E262E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hilke.PlanarGeometricSolver", "src\Hilke.PlanarGeometricSolver\Hilke.PlanarGeometricSolver.csproj", "{41239875-FCB3-4F5B-A221-697815D9F98B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{459668F8-6C13-41B3-B833-21EAC7FC354B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hilke.PlanarGeometricSolver.Tests", "tests\Hilke.PlanarGeometricSolver.Tests\Hilke.PlanarGeometricSolver.Tests.csproj", "{D025BED1-43BE-47FC-99BC-78CF0CB3EDF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmarks", "benchmarks", "{0B6A0BC3-D7F7-40A3-A5B7-910FAF5308E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hilke.PlanarGeometricSolver.Benchmarks", "benchmarks\Hilke.PlanarGeometricSolver.Benchmarks\Hilke.PlanarGeometricSolver.Benchmarks.csproj", "{5BEA68C4-0E05-4D43-9BBD-F1EAB44ED917}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{ED099AA1-9B64-46DA-A428-BD14DF91B04C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hilke.PlanarGeometricSolver.Samples", "samples\Hilke.PlanarGeometricSolver.Samples\Hilke.PlanarGeometricSolver.Samples.csproj", "{4B0F6245-5534-43C6-8607-E9AD7D285FC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41239875-FCB3-4F5B-A221-697815D9F98B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41239875-FCB3-4F5B-A221-697815D9F98B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41239875-FCB3-4F5B-A221-697815D9F98B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41239875-FCB3-4F5B-A221-697815D9F98B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D025BED1-43BE-47FC-99BC-78CF0CB3EDF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D025BED1-43BE-47FC-99BC-78CF0CB3EDF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D025BED1-43BE-47FC-99BC-78CF0CB3EDF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D025BED1-43BE-47FC-99BC-78CF0CB3EDF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BEA68C4-0E05-4D43-9BBD-F1EAB44ED917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BEA68C4-0E05-4D43-9BBD-F1EAB44ED917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BEA68C4-0E05-4D43-9BBD-F1EAB44ED917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BEA68C4-0E05-4D43-9BBD-F1EAB44ED917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B0F6245-5534-43C6-8607-E9AD7D285FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0F6245-5534-43C6-8607-E9AD7D285FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0F6245-5534-43C6-8607-E9AD7D285FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0F6245-5534-43C6-8607-E9AD7D285FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41239875-FCB3-4F5B-A221-697815D9F98B} = {E303FB87-FDE8-4C08-A336-334F7E262E39}
+		{D025BED1-43BE-47FC-99BC-78CF0CB3EDF8} = {459668F8-6C13-41B3-B833-21EAC7FC354B}
+		{5BEA68C4-0E05-4D43-9BBD-F1EAB44ED917} = {0B6A0BC3-D7F7-40A3-A5B7-910FAF5308E6}
+		{4B0F6245-5534-43C6-8607-E9AD7D285FC6} = {ED099AA1-9B64-46DA-A428-BD14DF91B04C}
+	EndGlobalSection
+EndGlobal
