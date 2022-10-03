@@ -1,13 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\Hilke.PlanarGeometricSolver.Abstractions\Hilke.PlanarGeometricSolver.Abstractions.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>Hilke.PlanarGeometricSolver</RootNamespace>
   </PropertyGroup>
 
 </Project>
